@@ -14,10 +14,13 @@
     --clr-primary-400: hsla(169, 100%, 26%, 1);
     --clr-primary-500: hsla(169, 100%, 16%, 1);
     --clr-neutral-100: hsla(0, 0%, 100%, 1);
+    --clr-neutral-200: hsla(0, 0%, 95%, 1);
     --clr-neutral-300: hsla(0, 0%, 50%, 1);
     --clr-neutral-400: hsla(0, 0%, 40%, 1);
     --clr-neutral-500: hsla(0, 0%, 60%, 1);
     --clr-neutral-900: hsla(0, 0%, 10%, 1);
+    --border-color: hsla(0, 0%, 87%, 1);
+    --table-header-bg: hsla(158, 95%, 34%, 1);
 }
 
 @media (min-width: 35em) {
@@ -42,6 +45,7 @@
 *::before,
 *::after {
     box-sizing: border-box;
+    background-color: hsl(158, 95%, 34%);
 }
 
 
@@ -403,7 +407,7 @@ section,
 table,
 td,
 th {
-    border: 1px solid var(--clr-neutral-300);
+    border: 1px solid var(--border-color);
     text-align: left;
 }
 
@@ -416,7 +420,7 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: var(--clr-primary-400);
+    background-color: var(--table-header-bg);
     color: var(--clr-neutral-100);
 }
 
@@ -426,5 +430,9 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: var(--clr-primary-200);
+    background-color: var(--clr-neutral-200);
+}
+
+tr:hover {
+    background-color: var(--border-color);
 }
