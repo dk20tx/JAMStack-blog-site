@@ -31,7 +31,7 @@ A static `admin` folder contains all Netlify CMS files, stored at the root of 
 | Spike                                        | `/views`              |
 | Wyam                                         | `/input`              |
 | Pelican                                      | `/content`            |
-| VuePress                                     | `/.vuepress/public`   |
+| VuePress                                     | `/public`             |
 | Elmstatic                                    | `/_site`              |
 | 11ty                                         | `/_site`              |
 | preact-cli                                   | `/src/static`         |
