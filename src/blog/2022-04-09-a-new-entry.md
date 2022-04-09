@@ -1,6 +1,9 @@
 ---
-title: A new Entry
-description: Intro to Netlify CMS
+title: Intro to Netlify CMS
+description: Netlify CMS is an open source content management system for your
+  Git workflow that enables you to provide editors with a friendly UI and
+  intuitive workflows. You can use it with any static site generator to create
+  faster, more flexible web projects.
 author: Dismas Too
 date: 2022-04-09T01:04:09.282Z
 tags:
