@@ -45,7 +45,6 @@
 *::before,
 *::after {
     box-sizing: border-box;
-    background-color: hsl(158, 95%, 34%);
 }
 
 
