@@ -403,7 +403,7 @@ section,
 table,
 td,
 th {
-    border: 1px solid #ddd;
+    border: 1px solid var(--clr-neutral-300);
     text-align: left;
 }
 
@@ -416,8 +416,8 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #04AA6D;
-    color: white;
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
 }
 
 th,
@@ -426,5 +426,5 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2;
+    background-color: var(--clr-primary-200);
 }
