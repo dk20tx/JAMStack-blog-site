@@ -18,6 +18,37 @@ imageAlt: bitcoin
 
 This tutorial guides you through the steps for adding Netlify CMS to a site that's built with a common [static site generator](https://www.staticgen.com/), like Jekyll, Hugo, Hexo, or Gatsby. Alternatively, you can [start from a template](https://www.netlifycms.org/docs/start-with-a-template) or dive right into [configuration options](https://www.netlifycms.org/docs/configuration-options).
 
+```
+table,
+td,
+th {
+    border: 1px solid var(--clr-neutral-300);
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--clr-primary-400);
+    color: var(--clr-neutral-100);
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+tr:nth-child(even) {
+    background-color: var(--clr-primary-200);
+}
+```
+
 ## [](https://www.netlifycms.org/docs/add-to-your-site/#app-file-structure)App File Structure
 
 A static `admin` folder contains all Netlify CMS files, stored at the root of your published site. Where you store this folder in the source files depends on your static site generator. Here's the static file location for a few of the most popular static site generators:
