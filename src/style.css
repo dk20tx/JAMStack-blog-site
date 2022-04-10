@@ -4,8 +4,8 @@
     --fs-500: 1.375rem;
     --fs-600: 1.875rem;
     --fs-700: 2rem;
-    --ff-body: "Roboto", sans-serif;
-    --ff-heading: "Playfair Display", serif;
+    --ff-body: 1em/1.5 "Avenir Next", -apple-system, "Helvetica Neue", Arial, sans-serif;
+    --ff-heading: "Palatino", Georgia, "Times New Roman", serif;
     --fw-400: 400;
     --fw-700: 700;
     --fw-900: 900;
@@ -63,6 +63,100 @@ dd {
     margin: 0;
 }
 
+button,
+input,
+select,
+textarea {
+    font-size: 1em;
+}
+
+button,
+input,
+select,
+textarea {
+    border: 0;
+}
+
+
+/* Remove the 300ms tap-delay */
+
+a,
+button,
+input,
+label,
+select,
+textarea {
+    touch-action: manipulation;
+}
+
+a {
+    color: cornflowerblue;
+    transition: color .3s;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2.0em;
+}
+
+h3 {
+    font-size: 1.25em;
+}
+
+h4 {
+    font-size: 1.0em;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 0.875em;
+}
+
+h6 {
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 1.125em;
+    margin: 0;
+}
+
+p+p {
+    margin-top: 1.5em;
+}
+
+em,
+figcaption,
+i {
+    font-style: italic;
+}
+
+blockquote,
+figure {
+    margin: 2em 0;
+}
+
+blockquote {
+    font-family: Palatino, Georgia, 'Times New Roman', serif;
+    font-size: 1.125em;
+    border-left: .25em solid #acaeab;
+    padding: 1em 1em 1em 1.5em;
+    background: #edefec;
+    border-radius: .25em;
+}
+
+blockquote>* {
+    margin-top: 0;
+}
+
+blockquote :last-child {
+    margin-bottom: 0;
+}
+
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 
@@ -78,6 +172,15 @@ ol:where([role="list"]) {
 
 html:focus-within {
     scroll-behavior: smooth;
+}
+
+
+/* Setting fallback defaults for IE */
+
+html {
+    font: 1em/1.5 'Avenir Next', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    text-rendering: optimizelegibility;
+    background: #fafbfc;
 }
 
 
@@ -101,6 +204,7 @@ a:not([class]) {
 
 img,
 picture {
+    height: auto;
     max-width: 100%;
     display: block;
 }
@@ -157,7 +261,52 @@ strong {
 
 section,
 .section {
-    padding: min(10vh, 10em) 0;
+    padding: min(8vh, 10em) 0;
+}
+
+code,
+pre {
+    font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+}
+
+p>code {
+    padding: .125em;
+    background: #edefec;
+    color: black;
+}
+
+blockquote,
+figure {
+    margin: 2em 0;
+}
+
+blockquote {
+    font-family: Palatino, Georgia, 'Times New Roman', serif;
+    font-size: 1.125em;
+    border-left: .25em solid #acaeab;
+    padding: 1em 1em 1em 1.5em;
+    background: #edefec;
+    border-radius: .25em;
+}
+
+blockquote>* {
+    margin-top: 0;
+}
+
+blockquote :last-child {
+    margin-bottom: 0;
+}
+
+@supports(grid-gap: 1em) {
+    figcaption {
+        grid-column: 4 / -4;
+    }
+    .article>blockquote {
+        margin: var(--spacing-half) 0;
+    }
+    blockquote {
+        grid-column: 3 / -3;
+    }
 }
 
 
@@ -204,10 +353,25 @@ section,
 
 .article-title {
     font-size: var(--fs-700);
+    font-family: Palatino, Georgia, 'Times New Roman', serif;
+    max-width: 72rem;
+    /* background: burlywood; */
 }
 
-.section-title {
-    font-size: var(--fs-600);
+@media (max-width: 75em) {
+    .section-title {
+        font-size: var(--fs-600);
+    }
+    article>figure {
+        grid-column: 2 / -2;
+    }
+    img {
+        grid-column: 1 / -1;
+    }
+    figcaption,
+    blockquote {
+        grid-column: 2 / -2;
+    }
 }
 
 
