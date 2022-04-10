@@ -9,7 +9,7 @@ date: 2022-04-09T01:04:09.282Z
 tags:
   - post
   - featured
-image: /assets/blog/gold-bitcoin.jpg
+image: /assets/blog/article-3.jpg
 imageAlt: bitcoin
 ---
 ## Add to Your Site
