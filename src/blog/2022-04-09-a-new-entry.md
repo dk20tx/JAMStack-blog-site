@@ -10,7 +10,7 @@ tags:
   - post
   - featured
 image: /assets/blog/article-3.jpg
-imageAlt: bitcoin
+imageAlt: Image by Roberto Nickson
 ---
 ## Add to Your Site
 
