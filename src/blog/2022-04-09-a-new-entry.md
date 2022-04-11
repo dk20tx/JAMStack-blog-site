@@ -22,7 +22,6 @@ This tutorial guides you through the steps for adding Netlify CMS to a site that
 table,
 td,
 th {
-    border: 1px solid var(--clr-neutral-300);
     text-align: left;
 }
 
@@ -35,7 +34,6 @@ th {
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: var(--clr-primary-400);
     color: var(--clr-neutral-100);
 }
 
@@ -45,7 +43,6 @@ td {
 }
 
 tr:nth-child(even) {
-    background-color: var(--clr-primary-200);
 }
 ```
 
