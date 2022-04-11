@@ -6,10 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/style.css">
-    
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
 </head>
 
 <body>
@@ -18,7 +17,7 @@
         {{ content | safe }}
     </main>
     {% include 'footer.njk' %}
-
+    {# admin authentication #}
     <script>
     if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
@@ -30,7 +29,45 @@
         });
     }
     </script>
+    {# mobile hamburger menu #}
+    <script>
+    var header = document.querySelector('header');
+    var navMenu = header.querySelector('.nav-header-menu');
+    var hamburberMenu = header.querySelector('.hamburger-icon')
+    var menuLibraryItem=navMenu.querySelector('.nav-library-item');
 
+    hamburberMenu.addEventListener('click', (event) => {
+        header.classList.toggle('open');
+    });
+
+    menuLibraryItem.addEventListener('click',(event)=>{
+        event.currentTarget.classList.toggle('active');
+    })
+
+
+    /*Tab Menu*/
+    var tabMenu=document.querySelectorAll('.tabs-item');
+    var tabsPane=document.querySelectorAll('.tab-pane');
+
+    function resetTabMenu(){
+        tabMenu.forEach(tabItem=>{
+            tabItem.classList.remove("active");
+        });
+        tabsPane.forEach(tabPane=>{
+            tabPane.classList.remove("active");
+        });
+    }
+
+    tabMenu.forEach(tabItem=>{
+        tabItem.addEventListener('click',(event)=>{
+            resetTabMenu();
+            let tabName=event.currentTarget.getAttribute('data-toggle');
+            event.currentTarget.classList.add('active');
+            document.getElementById(tabName).classList.add('active');
+        });
+    });
+    </script>
+    
 </body>
 
 </html>
