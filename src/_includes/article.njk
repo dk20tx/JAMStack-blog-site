@@ -34,7 +34,7 @@ layout: 'base.njk'
   <div class="row article-wrapper">
     <div class="col-12 order-2 order-md-1 col-md-4">
       <div class="sidebar-item">
-        <div class="article-card make-me-sticky">
+        <div class="make-me-sticky">
           <div class="article-card__image">
 
           </div>
@@ -68,6 +68,12 @@ layout: 'base.njk'
       </div>    
     </div>
     <div class="article">
+      <figure class="main-article__figure">
+        <img src="{{ image }}" alt="{{ imageAllt }}">
+        <figcaption>
+          {{ imageAlt }}
+        </figcaption>
+      </figure> 
         {{ content | safe }}
     </div>
   </div>
