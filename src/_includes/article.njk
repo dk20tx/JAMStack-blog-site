@@ -1,22 +1,78 @@
 ---
 layout: 'base.njk'
 ---
-<section>
-  <article class="main-article">
-  <div class="container container--narrow flow">
-    
-      <h1 class="article-title">
-        {{ title }}
-      </h1>
-      <figure class="main-article__figure">
-        <img src="{{ image }}" alt="{{ imageAllt }}">
-        <figcaption>
-          {{ imageAlt }}
-        </figcaption>
-      </figure> 
 
-      {{ content | safe }}
-  
+  <article class="main-article">
+  <div class="container-fluid block-background">
+  <div class="container">
+    <div class="row">
+    <div class="col-12">
+      <div class="article-hero">
+        <div class="article-hero__heading">
+          <h1>
+            {{ title }}
+          </h1>
+        </div>
+        <div class="gradient-divider"></div>
+        <div class="article-hero__info">
+          <span> 
+            <i class="far fa-file-alt"></i>
+            Article
+          </span>
+          <span>
+            <i class="far fa-clock"></i>
+            7 min. read
+          </span>
+        </div>
+    </div>
+    </div>
   </div>
+  </div>
+  
+</div>
+<div class="container">
+  <div class="row article-wrapper">
+    <div class="col-12 order-2 order-md-1 col-md-4">
+      <div class="sidebar-item">
+        <div class="article-card make-me-sticky">
+          <div class="article-card__image">
+
+          </div>
+          <div class="article-card__name">
+            Name Namesson
+          </div>
+          <div class="article-card__title">
+            Business area
+          </div>
+          <div class="msds-btn">
+            GET IN TOUCH
+          </div>
+        <div class="article-card__footer">
+          <h4>SHARE</h4>
+          <div class="icon-container">
+            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            
+          </div>
+        </div>
+      </div>
+      </div>
+      
+    </div>
+    <div class="col-12 order-1 order-md-2 col-md-7">
+      <div class="catagory-tag-wrapper">
+        <div class="catagory-tag">Medical</div>
+        <div class="catagory-tag"> Hospitality</div>
+        <div class="catagory-tag">Health Care
+      </div>    
+    </div>
+    <div class="article">
+        {{ content | safe }}
+    </div>
+  </div>
+  </div>
+</div>
+
   </article>
-</section>
+

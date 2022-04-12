@@ -1028,4 +1028,232 @@ textarea:valid+label {
 }
 
 
-/* scroll to top button */
+/* article styling */
+
+.msds-btn {
+    position: relative;
+    display: inline-flex;
+    margin-top: 1.25rem;
+    padding: 0.8125rem 3rem 0.6875rem;
+    user-select: none;
+    background-color: transparent;
+    border-radius: 0.125rem;
+    border: 0.0625rem solid transparent;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+    text-align: center;
+    color: #0099DA;
+    background: linear-gradient(90deg, #FFD300 0%, #FFE700 100%);
+}
+
+.msds-btn:hover {
+    background: yellow;
+    bottom: 0.125rem;
+    transition: bottom 0.2s;
+}
+
+.block-background {
+    background: linear-gradient(270deg, rgba(0, 153, 218, 0) 0%, #0099DA 100%), url("https://images.pexels.com/photos/1074882/pexels-photo-1074882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.article-wrapper {
+    padding-top: 64px;
+}
+
+.gradient-divider {
+    background: linear-gradient(90deg, #0099DA 32%, yellow 68%);
+    width: 110px;
+    height: 4px;
+    margin-bottom: 32px;
+}
+
+.article-hero {
+    padding: 3rem 0 10rem;
+    height: fit-content;
+    color: white;
+}
+
+@media screen and (min-width: 48em) {
+    .article-hero {
+        padding: 5rem 0 13rem 5rem;
+        height: fit-content;
+        color: white;
+    }
+}
+
+.article-hero__heading h1 {
+    font-size: 2em;
+    font-weight: 300;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.article-hero__info {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.article-hero__info span {
+    margin-right: 32px;
+}
+
+.article-hero__info span i {
+    margin-right: 12px;
+}
+
+.article-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-card__image {
+    width: 170px;
+    height: 170px;
+    background: url("https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    border-radius: 50%;
+    margin-bottom: 24px;
+}
+
+.article-card__name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.article-card__title {
+    font-size: 16px;
+    line-height: 22px;
+    color: #6D6F71;
+}
+
+.article-card__footer {
+    margin-top: 64px;
+}
+
+.article-card__footer h4 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 8px;
+}
+
+.article-card__footer i {
+    font-size: 15px;
+    color: #9DADB7;
+    margin-right: 12px;
+}
+
+.catagory-tag-wrapper {
+    display: flex;
+    margin-bottom: 32px;
+}
+
+.catagory-tag {
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #0099DA;
+    height: 32px;
+    border: 1px solid #DCE2E6;
+    border-radius: 2px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.article__teaser {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+.article__divider {
+    height: 1px;
+    width: 32px;
+    background-color: #0099DA;
+    margin-top: 32px;
+}
+
+.article__subdivision {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.article__text {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.article__image {
+    width: 100%;
+    height: 400px;
+    background: url("https://images.pexels.com/photos/3141394/pexels-photo-3141394.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    margin-top: 32px;
+}
+
+.article__image--tall {
+    height: 700px;
+    background: url("https://images.pexels.com/photos/1612861/pexels-photo-1612861.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+    background-size: cover;
+}
+
+.quote {
+    margin-top: 32px;
+}
+
+.quote__icon {
+    font-size: 32px;
+    color: #0099DA;
+}
+
+.quote__text {
+    margin-top: 17px;
+    margin-bottom: 32px;
+    color: #023852;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+}
+
+.quote__by-line {
+    color: #6D6F71;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.article-wrapper {
+    position: relative;
+    top: -150px;
+    background-color: #fff;
+}
+
+.sidebar-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Position the items */
+}
+
+.make-me-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 25px;
+    padding: 0 15px;
+}
