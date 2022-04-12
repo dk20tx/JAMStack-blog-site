@@ -1093,6 +1093,10 @@ textarea:valid+label {
         height: fit-content;
         color: white;
     }
+    .article p {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .article-hero__heading h1 {
