@@ -28,7 +28,9 @@ SELECT AES_DECRYPT(first_name, 'usa2010'), AES_DECRYPT(address, 'usa2010') from 
 
 mysql> SELECT AES_DECRYPT(`pswd`, 'secret') AS `pswd` FROM `users` WHERE `email` = 'user6@example.com';
 
-mysql> INSERT INTO custcards VALUES (AES_ENCRYPT('cardnumber',SHA2('cvv',512)));
+mysql> INSERT INTO custcards VALUES (AES_ENCRYPT('cardnumber',SHA2
+
+('cvv',512)));
 
 Insert new User
 
