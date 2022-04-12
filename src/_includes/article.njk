@@ -34,7 +34,7 @@ layout: 'base.njk'
   <div class="row article-wrapper">
     <div class="col-12 order-2 order-md-1 col-md-4">
       <div class="sidebar-item">
-        <div class="make-me-sticky">
+        <div class="article-card make-me-sticky">
           <div class="article-card__image">
 
           </div>
@@ -62,10 +62,9 @@ layout: 'base.njk'
     </div>
     <div class="col-12 order-1 order-md-2 col-md-7">
       <div class="catagory-tag-wrapper">
-        <div class="catagory-tag">Medical</div>
-        <div class="catagory-tag"> Hospitality</div>
-        <div class="catagory-tag">Health Care
-      </div>    
+        <div class="catagory-tag">{{ tags }}</div>
+        
+         
     </div>
     <div class="article">
       <figure class="main-article__figure">
