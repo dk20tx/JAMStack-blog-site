@@ -98,32 +98,6 @@ header #nav-link:hover {
     text-decoration: none;
 }
 
-h1 {
-    font-size: 2.5em;
-}
-
-h2 {
-    font-size: 2.0em;
-}
-
-h3 {
-    font-size: 1.25em;
-}
-
-h4 {
-    font-size: 1.0em;
-    text-transform: uppercase;
-}
-
-h5 {
-    font-size: 0.875em;
-}
-
-h6 {
-    font-size: 0.8em;
-    text-transform: uppercase;
-}
-
 p {
     font-size: 1.125em;
     margin: 0;
@@ -275,15 +249,34 @@ section,
     padding: min(8vh, 10em) 0;
 }
 
-code,
-pre {
-    font-family: Consolas, Monaco, "Courier New", Courier, monospace;
+pre,
+code {
+    font-family: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
+    line-height: 1.5;
 }
 
-p>code {
-    padding: .125em;
-    background: #edefec;
-    color: black;
+pre {
+    font-size: 14px;
+    line-height: 1.375;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+    tab-size: 2;
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    padding: 1em;
+    margin: .5em 0;
+    background-color: #f6f6f6;
+}
+
+code {
+    word-break: break-all;
 }
 
 blockquote,
@@ -351,7 +344,7 @@ blockquote :last-child {
     align-items: center;
     width: 100%;
     gap: var(--gap, 1em);
-    margin-bottom: 1em;
+    margin: 2em 0 1em;
 }
 
 .text-center {
@@ -393,6 +386,19 @@ blockquote :last-child {
 /* //////////////////////
   Header
   /////////////////////// */
+
+
+/* .nav-logo-text h4,
+.footer-logo-text h4 {
+    font-size: 2rem;
+}
+
+.nav-logo-text span,
+.footer-logo-text span {
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #aaa6ae;
+} */
 
 
 /* //////////////////////
@@ -778,7 +784,7 @@ a {
         padding: 0;
     }
     .container {
-        padding-inline: 1.2em;
+        padding-inline: 1em;
     }
     .hamburger-wrap {
         display: flex;
@@ -913,15 +919,6 @@ a {
         width: 95%;
         margin: 8% 5%;
     }
-}
-
-h2 {
-    font-family: 'Arimo', sans-serif;
-    color: #fff;
-    font-size: clamp(30px, 6vw, 60px);
-    letter-spacing: 2px;
-    text-align: center;
-    transform: scale(.95, 1);
 }
 
 .links {
@@ -1096,6 +1093,11 @@ textarea:valid+label {
     .article p {
         display: flex;
         flex-wrap: wrap;
+    }
+    .flex-group {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
     }
 }
 
