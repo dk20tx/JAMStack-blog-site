@@ -15,22 +15,25 @@ Quisque id diam vel quam elementum pulvinar etiam. Congue mauris rhoncus aenean 
 
 ![bitcoin](/assets/blog/gold-bitcoin.jpg "unsplash bitcoin image")
 
-by André François McKenzie retrieved from [unsplash.com](https://unsplash.com/photos/JrjhtBJ-pGU)
+*by André François McKenzie retrieved from [unsplash.com](https://unsplash.com/photos/JrjhtBJ-pGU)*
 
 Maecenas accumsan lacus vel facilisis volutpat. Lorem ipsum dolor sit amet consectetur adipiscing. A scelerisque purus semper eget duis at tellus at. Magna fringilla urna porttitor rhoncus dolor purus non. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl.
 
+
+
 > #### Donec adipiscing tristique risus nec feugiat in fermentum
 >
-> Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Duis at tellus at urna condimentum. Commodo odio aenean sed adipiscing diam donec adipiscing. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Augue eget arcu dictum varius. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Ut tellus elementum sagittis vitae. Semper risus in hendrerit gravida rutrum. Eu sem integer vitae justo eget. Urna id volutpat lacus laoreet non curabitur gravida. Tempus imperdiet nulla malesuada pellentesque. Est pellentesque elit ullamcorper dignissim.
+> Feugiat nibh sed pulvinar proin gravida hendrerit lectus a. Duis at tellus at urna condimentum. Commodo odio aenean sed adipiscing diam donec adipiscing. Purus viverra accumsan in nisl nisi scelerisque eu ultrices vitae. Augue eget arcu dictum varius.
 >
 > *by Rudy* 
 
-1. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Netus et malesuada fames ac. 
-2. Tortor pretium viverra suspendisse potenti. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Quis vel eros donec ac odio tempor. Auctor urna nunc id cursus metus aliquam eleifend mi in. 
-3. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Turpis massa tincidunt dui ut.
-4. Eu facilisis sed odio morbi quis commodo. Pellentesque habitant morbi tristique senectus et netus et. 
-5. Facilisis volutpat est velit egestas dui id. Elementum facilisis leo vel fringilla est ullamcorper eget. Tempor nec feugiat nisl pretium fusce. Proin sagittis nisl rhoncus mattis rhoncus urna. 
-6. Luctus venenatis lectus magna fringilla. Ut venenatis tellus in metus vulputate eu scelerisque felis. Velit aliquet sagittis id consectetur. Erat velit scelerisque in dictum non consectetur. 
+
+
+1. Tortor pretium viverra suspendisse potenti. Dolor sed viverra ipsum nunc aliquet bibendum enim facilisis gravida. Quis vel eros donec ac odio tempor. Auctor urna nunc id cursus metus aliquam eleifend mi in. 
+2. Montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium. Turpis massa tincidunt dui ut.
+3. Eu facilisis sed odio morbi quis commodo. Pellentesque habitant morbi tristique senectus et netus et. 
+4. Facilisis volutpat est velit egestas dui id. Elementum facilisis leo vel fringilla est ullamcorper eget. Tempor nec feugiat nisl pretium fusce. Proin sagittis nisl rhoncus mattis rhoncus urna. 
+5. Luctus venenatis lectus magna fringilla. Ut venenatis tellus in metus vulputate eu scelerisque felis. Velit aliquet sagittis id consectetur. Erat velit scelerisque in dictum non consectetur. 
 
 Feugiat in ante metus dictum at. Nunc sed velit dignissim sodales. Odio aenean sed adipiscing diam donec adipiscing. Diam quam nulla porttitor massa id neque aliquam. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Elementum curabitur vitae nunc sed. Pretium fusce id velit ut tortor pretium viverra suspendisse potenti. Nisi vitae suscipit tellus mauris a. Id aliquet lectus proin nibh. Tortor posuere ac ut consequat semper viverra. Nunc consequat interdum varius sit. Dictum fusce ut placerat orci. Nibh praesent tristique magna sit amet purus gravida quis. Donec ultrices tincidunt arcu non sodales neque sodales ut.
 
