@@ -23,14 +23,8 @@
     --table-header-bg: hsla(158, 95%, 34%, 1);
 }
 
-@media (min-width: 35em) {
-     :root {
-        --fs-300: 1rem;
-        --fs-400: 1.125rem;
-        --fs-500: 1.5rem;
-        --fs-600: 2.25rem;
-        --fs-700: 3rem;
-    }
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -45,6 +39,27 @@
 *::before,
 *::after {
     box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: .8em;
+    height: 1em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(218, 235, 218);
+    border-radius: 100vw;
+    margin-block: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(153, 153, 153);
+    border: 0.18em solid rgb(214, 214, 214);
+    border-radius: 100vw;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(120 100% 10% / 1);
 }
 
 
@@ -145,11 +160,37 @@ hr {
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 
-ul:where([role="list"]),
+
+/* ul:where([role="list"]),
 ol:where([role="list"]) {
     list-style: none;
     margin: 0;
     padding: 0;
+} */
+
+ol {
+    counter-reset: list;
+    list-style: none;
+}
+
+ol li {
+    counter-increment: list;
+    margin-bottom: 10px;
+}
+
+ol li::before {
+    content: counter(list);
+    background: #53bf89;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 50%;
+    width: 2.2em;
+    height: 2.2em;
+    line-height: 2.3em;
+    display: inline-block;
+    margin-right: 1em;
 }
 
 
