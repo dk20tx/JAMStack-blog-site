@@ -1,10 +1,10 @@
 ---
-title: Database Encryption
+title: Alwala Community Development Network
 description: Storing a sensitive data in plain text format could turn into a
   nightmare if the access to your database has been compromised. To minimize
   losses in such an cases MySQL provides functions for encrypt and hash of data.
 author: Dismas Too
-date: 2022-04-11T06:28:31.870Z
+date: 2023-02-08T13:52:47.492Z
 tags:
   - post
   - featured
