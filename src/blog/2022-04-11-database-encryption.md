@@ -3,7 +3,7 @@ title: Alwala Community Development Network
 description: Storing a sensitive data in plain text format could turn into a
   nightmare if the access to your database has been compromised. To minimize
   losses in such an cases MySQL provides functions for encrypt and hash of data.
-author: Dismas Too
+author: Abigail
 date: 2023-02-08T13:52:47.492Z
 tags:
   - post
