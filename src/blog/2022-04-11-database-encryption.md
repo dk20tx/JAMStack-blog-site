@@ -4,7 +4,7 @@ description: Storing a sensitive data in plain text format could turn into a
   nightmare if the access to your database has been compromised. To minimize
   losses in such an cases MySQL provides functions for encrypt and hash of data.
 author: Abigail
-date: 2023-02-08T13:52:47.492Z
+date: 2023-07-26T10:10:27.010Z
 tags:
   - post
   - featured
