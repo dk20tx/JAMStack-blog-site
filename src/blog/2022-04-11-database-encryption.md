@@ -25,17 +25,3 @@ INSERT into user (first_name, address) VALUES (AES_ENCRYPT('Obama', 'usa2010'),A
 To decrypt a password previously encypted with the AES algorithm use the AES_DECRYPT(crypt_str,key_str) function:
 
 SELECT AES_DECRYPT(first_name, 'usa2010'), AES_DECRYPT(address, 'usa2010') from user;
-
-mysql> SELECT AES_DECRYPT(`pswd`, 'secret') AS `pswd` FROM `users` WHERE `email` = 'user6@example.com';
-
-mysql> INSERT INTO custcards VALUES (AES_ENCRYPT('cardnumber',SHA2
-
-('cvv',512)));
-
-Insert new User
-
-INSERT INTO `user` (`Username`, `Pass`) VALUES ('bob.jhonny', MD5('mypassword'));
-SELECT * FROM `user` WHERE username='bob.jhonny' AND pass=MD5('mypassword');
-
-Conclusion
-The AES standard provides the best defense in on sensitive data . The AES_ENCRYPT and AES_DECRYPT functions are the best choices to store a sensitive data (e.g. passwords, credit card numbers, etc.).
